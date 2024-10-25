@@ -9,15 +9,15 @@
     <style>
         body {
             display: flex;
+        }
+        .sidebar {
+            width: 200px;
+            background-color: #f4f4f4;
+            padding: 10px;
+            display: flex;
             flex-direction: column;
             justify-content: space-between;
             height: 100vh;
-        }
-        .footer {
-            display: flex;
-            justify-content: flex-start;
-            background-color: #f4f4f4;
-            padding: 10px;
         }
         .content {
             flex-grow: 1;
@@ -26,6 +26,18 @@
     </style>
 </head>
 <body>
+    <div class="sidebar">
+        <header>
+            <h1>Your Name</h1>
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#blog">Blog</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
+    </div>
     <div class="content">
         <section class="hero" id="home">
             <h2>Welcome to My Portfolio</h2>
@@ -68,18 +80,6 @@
             <p>Email: your.email@example.com</p>
             <p>LinkedIn: your-linkedin-profile</p>
         </section>
-    </div>
-    <div class="footer">
-        <header>
-            <h1>Your Name</h1>
-            <nav>
-                <a href="#home">Home</a>
-                <a href="#about">About</a>
-                <a href="#projects">Projects</a>
-                <a href="#blog">Blog</a>
-                <a href="#contact">Contact</a>
-            </nav>
-        </header>
     </div>
 </body>
 </html>

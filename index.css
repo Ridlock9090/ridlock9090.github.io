@@ -1,12 +1,12 @@
 body {
-  font-family: 'Poppins', sans-serif; /* Changing to a more stylish font */
+  font-family: 'Staatliches', sans-serif; /* Stenciled font */
   margin: 0;
   padding: 0;
-  background-color: #e0f7fa; /* Light aqua background */
+  background-color: #263238; /* Darker greyish-blue */
 }
 
 header {
-  background-color: #00796b; /* Teal */
+  background-color: #004d40; /* Dark teal */
   color: white;
   padding: 1.5rem;
   text-align: center;
@@ -39,17 +39,17 @@ section {
 }
 
 .about, .projects, .blog, .contact {
-  background-color: #ffffff; /* White background */
-  color: #004d40; /* Dark teal */
+  background-color: #37474f; /* Darker grey */
+  color: #e0f7fa; /* Light aqua */
   margin: 1rem auto;
   max-width: 800px;
   padding: 1.5rem;
   border-radius: 20px; /* Rounded corners */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow */
 }
 
 h1, h2, h3 {
-  color: #00796b; /* Teal */
+  color: #80cbc4; /* Lighter teal */
 }
 
 button {

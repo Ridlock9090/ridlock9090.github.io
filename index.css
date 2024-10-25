@@ -26,6 +26,12 @@ nav a {
   text-align: center;
 }
 
+.hero p {
+  font-size: 1.5rem;
+  color: #001f5b; /* darker blue */
+  font-weight: bold;
+}
+
 section {
   padding: 2rem 1rem;
 }

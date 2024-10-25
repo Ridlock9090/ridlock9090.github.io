@@ -3,12 +3,13 @@ body {
   margin: 0;
   padding: 0;
   background-color: #263238; /* Darker greyish-blue */
+  font-size: 1.2rem; /* Larger base font size */
 }
 
 header {
-  background-color: #004d40; /* Dark teal */
+  background-color: #1b1b1b; /* Blackish hue */
   color: white;
-  padding: 1.5rem;
+  padding: 2rem; /* Increased padding for wider header */
   text-align: center;
   border-radius: 0 0 20px 20px; /* Rounded bottom corners */
 }
@@ -22,7 +23,7 @@ nav a {
   color: white;
   text-decoration: none;
   margin: 0 2rem; /* Wider horizontal spacing */
-  font-size: 1.5rem; /* Larger font size */
+  font-size: 2rem; /* Larger font size */
   text-shadow: 2px 2px #000000; /* Text shadow */
 }
 
@@ -30,19 +31,19 @@ nav a {
   background-image: url('your-cloud-image.jpg'); /* Placeholder for your hero image */
   background-size: cover;
   color: #ffffff;
-  padding: 5rem 1rem;
+  padding: 6rem 1rem;
   text-align: center;
   border-radius: 20px; /* Rounded corners */
 }
 
 .hero p {
-  font-size: 1.5rem;
+  font-size: 2rem; /* Larger font size */
   color: #004d40; /* Darker teal */
   font-weight: bold;
 }
 
 section {
-  padding: 2rem 1rem;
+  padding: 2.5rem 1.5rem;
 }
 
 .about, .projects, .blog, .contact {
@@ -50,25 +51,6 @@ section {
   color: #e0f7fa; /* Light aqua */
   margin: 1rem auto;
   max-width: 800px;
-  padding: 1.5rem;
+  padding: 2rem; /* Larger padding */
   border-radius: 20px; /* Rounded corners */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow */
-}
-
-h1, h2, h3 {
-  color: #80cbc4; /* Lighter teal */
-}
-
-button {
-  background-color: #00796b; /* Teal */
-  color: white;
-  border: none;
-  padding: 0.75rem 1.5rem;
-  cursor: pointer;
-  border-radius: 20px; /* Rounded corners */
-}
-
-button:hover {
-  background-color: #004d40; /* Darker teal */
-  color: white;
-}
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle

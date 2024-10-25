@@ -13,10 +13,17 @@ header {
   border-radius: 0 0 20px 20px; /* Rounded bottom corners */
 }
 
+nav {
+  display: flex;
+  justify-content: center;
+}
+
 nav a {
   color: white;
   text-decoration: none;
-  margin: 0 1rem;
+  margin: 0 2rem; /* Wider horizontal spacing */
+  font-size: 1.5rem; /* Larger font size */
+  text-shadow: 2px 2px #000000; /* Text shadow */
 }
 
 .hero {

@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f8ff; /* light blue */
+}
+
+header {
+  background-color: #0047ab; /* deep blue */
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 1rem;
+}
+
+.hero {
+  background-image: url('your-cloud-image.jpg'); /* placeholder for your hero image */
+  background-size: cover;
+  color: #ffffff;
+  padding: 5rem 1rem;
+  text-align: center;
+}
+
+section {
+  padding: 2rem 1rem;
+}
+
+.about, .projects, .blog, .contact {
+  background-color: #ffffff;
+  color: #000000;
+  margin: 1rem auto;
+  max-width: 800px;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+h1, h2, h3 {
+  color: #0047ab; /* deep blue */
+}
+
+button {
+  background-color: #ffcc00; /* electric yellow */
+  color: #0047ab;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 0.25rem;
+}
+
+button:hover {
+  background-color: #0047ab;
+  color: white;
+}
